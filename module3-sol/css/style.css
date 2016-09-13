@@ -43,3 +43,8 @@ body > .container {
 .navbar { 
 	margin-bottom: 0;
 }
+
+/* center the menu text visible only on mobile */
+.navbar-nav>li>a{
+	text-align: center;
+}
