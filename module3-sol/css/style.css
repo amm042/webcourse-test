@@ -1,0 +1,45 @@
+/*
+ * style.css for Module 3 assignment.
+ * assignment source: https://docs.google.com/document/d/1CLp0LtdC1WP54tn9HgJjdFh3T0YScwd8Jk42Qcc3YaY/edit; 
+ */
+body{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-brand{
+	font-size: 32px;	
+}
+
+.gray-back{
+	background-color: #cccccc;
+}
+.pad-md{
+	padding: 15px;
+}
+.margin-bot{
+	margin-bottom: 15px;
+}
+.page-header{
+	text-align: center;
+}
+
+/* section heading, i.e., 'Chicken' */
+section > h2{
+	text-align: center;
+	margin-top: 0;
+}
+
+/* override from template, not using fixed menu so don't need extra pad */
+body > .container { 
+  padding: 0px 15px 0;
+}
+
+/* override bootstrap margin on header, why is it so much? */
+.page-header{ 
+	margin-top: 0;
+}
+
+/* more excessive margins to override */
+.navbar { 
+	margin-bottom: 0;
+}
